@@ -2,7 +2,7 @@ function Z=version13(a,b,c) %giving random numbers
     x=-6:1:5;
     y=a.*x.*x+b.*x+c;
     plot (x,y);
-    xlabel('moth')
+    xlabel('month')
     ylabel('tempture')
     title('weather report')
     A=input(['give a number' ...
@@ -19,6 +19,6 @@ function Z=version13(a,b,c) %giving random numbers
         '4:MAY\n' ...
         '5:JUNE\n']);
     Z=a.*A.*A+b.*A+c;
-    fprintf('the tempter of the that moth is %d',Z)
+    fprintf('the tempter of the that month is %d',Z)
     
 end
