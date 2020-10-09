@@ -22,6 +22,6 @@ function Z=version3
         '4:MAY\n' ...
         '5:JUNE\n']);
    Z=a.*A.*A+b.*A+c;
-    fprintf('the temptur of the that moth is %d',Z)
+    fprintf('the temptur of the that month is %d',Z)
     
 end
